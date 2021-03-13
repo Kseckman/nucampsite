@@ -16,3 +16,15 @@ $('#myModal').on('shown.bs.modal', function () {
           }
       });
   })
+
+//   week4 loggin reserve modal
+$(document).ready(function(){
+    $('#reserveButton').click(function(){
+        $('#reserveModal').modal();
+    });
+
+    $('#loginButton').click(function(){
+        $('#loginModal').modal();
+    });
+
+})
